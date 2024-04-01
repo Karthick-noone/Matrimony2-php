@@ -1,0 +1,132 @@
+.a1{
+    height: 500px;  margin-top: 100px;
+    background-image: url(img/usedimages/marriage.jpg);
+    background-color: hsla(0, 0%, 0%,.452);
+                               
+}
+.a2{
+    height: 400px;margin-left: 350px; margin-top: 50px; background-color:none
+    ;
+}
+.a3{
+    height: 80px;
+}
+.a4{
+    height: 180px;  
+}
+.a5{
+    height: 180px;
+    margin-top:20px ;
+}
+#a1{
+    margin-top: 10px;
+}
+.a6{
+    height: 140px;
+}
+.a7{
+    height: 140px;
+}
+.li_flex{
+    font-size: 14px;
+}
+#uploadedImage{
+    width: 170px; height: 170px;  margin-left: 80px ;background-image: url(img/usedimages/upld_here.png);
+    background-size: cover;background-color: rgb(149, 161, 149); 
+    border-radius: 50%;box-shadow: 10px 10px 5px rgb(95, 104, 107);
+}
+h2{
+    text-shadow: 2px 2px 4px rgb(143, 19, 19);
+}
+/* .container{
+    background-color: hsla(0, 17%, 38%, 0.43);
+} */
+@media screen and (max-width: 1000px)
+{
+    .a1{
+    height: 667px;
+    width: 100%;
+    background-image: url(img/usedimages/marriage_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+    .a2{
+        
+        width: 45%;
+        margin-right: 100px;
+        margin-left: 205px;
+        margin-top: 109px
+    }
+    .a3{
+        height: 65px;
+        width: 100%;
+        margin-right: 100px;
+    }
+    .a4{
+        height: 77px;
+        width: 100%;
+    }
+    .a5{
+        height: 69px;
+        width: 100%;
+        display: flex;
+        
+    }
+    .a6{
+        height: 70px;
+        width: 100%;
+        display: flex;
+        gap: 3px;
+    }
+    .a7{
+        height: 79px;
+        width: 100%;
+        display: flex;
+        padding-top: 12px;
+        line-height: 12px;
+        padding-left: 14px;
+        gap: 10px;
+    }
+    .a3 h2{
+        font-size: 14px;
+    }
+    #uploadedImage{
+        width: 85px;
+        height: 85px;
+        background-size: cover;
+        background-image: url(img/usedimages/upld_here.png);
+        margin-left: 40px;
+        border-radius: 50%;
+    }
+
+    .li_flex{
+        font-size: 10px;
+
+    }
+    #imageInput{
+        font-size: 13px;
+        width: 80px;
+    }
+
+    .a6 img{
+        margin-left: -7px;
+        margin-top: 20px;
+        margin-right: 7px;
+    }
+    .a6 p{
+        font-size: 11px;
+    }
+    .a7 img{
+        margin-left: -7px;
+        margin-top: 15px; 
+    }
+    .a7 p{
+        font-size: 11px;
+    }
+    #a1{
+        margin-top: 10px;
+        height: 25px;
+        width: 74px;
+    }
+    
+}

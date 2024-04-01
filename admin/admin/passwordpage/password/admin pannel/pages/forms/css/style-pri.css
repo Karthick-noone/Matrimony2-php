@@ -1,0 +1,37 @@
+.body{
+    background-color: rgb(228, 228, 228);
+}
+.xyz{
+    background-color: rgb(255, 166, 33);
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.btn{
+    
+   border: none;
+
+}
+
+.zzz{
+    text-decoration: none;
+}
+.img{
+    margin-left: 300px;
+}
+.code{
+    border-radius: 4px;
+    padding: 3px;
+}
+#icon{
+    height: 20px;
+    width: 20px;
+}
+.line{
+    width: 50%;
+}
+.fo{
+    padding: 25px;
+}
+

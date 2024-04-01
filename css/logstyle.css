@@ -1,0 +1,127 @@
+/* Login page CSS */
+
+body {
+  background-image: url(../img/bckd3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Arial", sans-serif;
+  font-weight: lighter;
+}
+
+/* Small screens (up to 767px) */
+@media (max-width: 767px) {
+  body {
+      background-size: cover;
+      min-height: 100vh;
+  }
+}
+
+/* Medium screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+      background-size: cover;
+      min-height: 100vh;
+  }
+}
+
+/* Large screens (992px and above) */
+@media (min-width: 992px) {
+  body {
+      background-size: cover;
+      min-height: 100vh;
+  }
+}
+  
+ .loggg{
+    text-align: center;
+    color: black;
+ }
+ .siggg{
+
+  color: rgb(10, 75, 255);
+}
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 25px;
+    background-color:  rgba(255, 255, 255, 0.274);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  input {
+    width: 150%;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+
+  }
+  
+  
+  /* Add the input boxes inside the form element */
+  form input {
+    display: block;
+  }
+  
+  button {
+    margin-left: 88px;
+    width: 55%;
+    height: 45px;
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: large;
+    transition-duration: 0.6s;
+  }
+  button:hover{
+    background-color: #a333b9;
+
+  }
+  .siggg:hover{
+    color: #a333b9;
+  }
+  .modal-footer {
+    text-align: center;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-bottom: 0;
+    }
+    .err{
+        color: red;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+  
+  a {
+    color: #04AA6D;
+  }
+
+  .input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.input-container img {
+    position: absolute;
+    right: -140px; /* Adjust the right position to move the image left */
+    top: 42%;
+    transform: translateY(-50%);
+    height: 16px; /* Adjust the image height as needed */
+}
+
+.input-container input {
+    padding-right: 28px; /* Adjust the right padding to make space for the image */
+}

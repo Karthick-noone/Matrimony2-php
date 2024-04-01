@@ -1,0 +1,115 @@
+<style>
+body {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin: 0;
+   padding: 0px;
+   background-color: #f2f2f2;
+   font-size: large;
+}
+.a{
+   background-color: #0a1a5f;
+   padding: 10px;
+   text-align: center;
+   color: white;
+  
+}
+button{
+   background-color: #213799;
+   color: white;
+   border: none;
+   padding: 10px 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 10px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+.container {
+   max-width: 900px;
+   margin: 10px ;
+   padding: 40px;
+   background-color: #fff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+  
+}
+.containerr {
+   max-width: 400px;
+   height: 550px;
+   margin: 10px ;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+  
+}
+.containers {
+   max-width: 450px;
+   max-height: 250px;
+   margin: 10px ;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   text-align: center;
+  
+}
+.containerss {
+   max-width: 400px;
+   max-height: 150px;
+   margin: 10px ;
+   padding: 20px;
+   background-color: #dce0bf;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   text-align: center;
+  
+}
+
+.s{
+   display: flex;
+}
+.d{
+   display: flex;
+}
+.f{
+   width: 450px;
+   height: 250px;
+
+}
+.g{
+   width: 250px;
+   height: 250px;
+
+}
+.h{
+   width: 100%;
+   display: flex;
+}
+.b{
+   width: 400px;
+   height: 550px;
+}
+.k{
+   display: flex;
+}
+.j{
+   display: flex;
+   margin: 40px;
+}
+.l{
+  
+   margin-left:  100px;
+   
+}
+.m{
+   margin-top: 25px;
+   transform: rotate(0deg);
+   border-radius: 10%;
+  
+}
+
+
+</style>

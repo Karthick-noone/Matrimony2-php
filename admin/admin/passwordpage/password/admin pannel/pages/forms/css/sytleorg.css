@@ -1,0 +1,33 @@
+.pv{
+display: flex;
+
+}
+
+.paid{
+
+    background-color: aqua;
+}
+.df{
+display: flex;
+
+}
+.dff{
+    display: flex;
+    
+    }
+    
+
+
+
+@media (min-width:250px) and (max-width:680px){
+
+    .pv{
+display: block;
+
+    }
+
+    .dff{
+        display:block;
+        
+        }
+} 
